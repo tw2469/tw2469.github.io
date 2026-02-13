@@ -7,7 +7,6 @@ date: 2026-02-16
 location: "—"
 permalink: /teaching/test1
 section: "VASP"
-tags: [vasp, dft, beginner]
 ---
 
 # Test section.
