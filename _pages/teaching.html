@@ -7,6 +7,17 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign sections = site.teaching | map: "section" | uniq %}
+
+{% for sec in sections %}
+  <h2>{{ sec }}</h2>
+  <ul>
+  {% for post in site.teaching %}
+    {% if post.section == sec %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 {% endfor %}
