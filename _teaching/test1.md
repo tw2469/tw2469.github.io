@@ -4,6 +4,7 @@ collection: teaching
 permalink: /teaching/test1
 section: "VASP"
 tags: [vasp, dft, beginner]
+date: 2026-02-16
 ---
 
 # Test section.
