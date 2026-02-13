@@ -23,6 +23,7 @@ import string
 import html
 import os
 import re
+import sys
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
@@ -54,9 +55,17 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
+####for pubsource in publist:
+####    parser = bibtex.Parser()
+####    bibdata = parser.parse_file(publist[pubsource]["file"])
+# ---- Windows-safe: read bib from argv, avoid kpsewhich ----
+bib_path = sys.argv[1] if len(sys.argv) > 1 else publist["journal"]["file"]
+
 for pubsource in publist:
     parser = bibtex.Parser()
-    bibdata = parser.parse_file(publist[pubsource]["file"])
+    with open(bib_path, "r", encoding="utf-8") as f:
+        bibdata = parser.parse_stream(f)
+# ----------------------------------------------------------
 
     #loop through the individual references in a given bibtex file
     for bib_id in bibdata.entries:

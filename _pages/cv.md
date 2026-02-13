@@ -12,7 +12,7 @@ redirect_from:
 Work experience
 ======
 * Postdoctoral Researcher, Xiaosong Li Group, University of Washington, Feb. 2022 ~ Present
-* Research Fellow, TZK Group, National University of Singapore, Feb. 2021 ~ Dec. 2021
+* Research Fellow, Tan Zhi-Kuang Group, National University of Singapore, Feb. 2021 ~ Dec. 2021
 
 Education
 ======
