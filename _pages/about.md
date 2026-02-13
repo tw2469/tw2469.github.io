@@ -1,13 +1,11 @@
 ---
 permalink: /
-title: "Tian Wang's Academic Website"
+title: "Welcome to Tian WANG's website~"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-# Welcome to Tian WANG's website.
 
 ## About
 I am a postdoctoral researcher in Prof. Xiasong Li's group at University of Washington. I will share my research progress and some tutorials in this personal website.
