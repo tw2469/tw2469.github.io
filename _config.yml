@@ -24,9 +24,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tian WANG"
+  name             : "Tian WANG (王添)"
   pronouns         : # example: "she/her"
-  bio              : "Postdoctoral researcher @ University of Washington"
+  bio              : "Postdoctoral researcher @ UW"
   location         : "Seattle, WA"
   employer         : "University of Washington"
   uri              : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/tw2469"
   kaggle           : # Username
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : #"bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
