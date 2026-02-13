@@ -34,6 +34,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+<!--
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -46,6 +48,12 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
+-->
+
+Activities
 ======
-* Currently signed in to 43 different slack teams
+*	Reviewer for: Chemical Engineering Journal, Nanoscale, Applied Surface Science, Nanoscale Advances, Molecules, and Journal of Environmental Chemical Engineering.
+*	2022~2023. Guest editor for Molecules.
+*	2015. Intro. to Microfluidics Technology, MRSEC Summer Course, Brandeis University.
+*	2013. Summer exchange program at Michigan State University.
+*	2008. Exchange student at University of Chicago Laboratory Schools.
