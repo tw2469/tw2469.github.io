@@ -1,0 +1,32 @@
+.section-nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem;
+  margin:1rem 0 1rem 0;
+}
+
+.section-pill{
+  display:inline-block;
+  padding:.35rem .7rem;
+  border:1px solid #ddd;
+  border-radius:999px;
+  text-decoration:none;
+  font-size:.95rem;
+}
+
+.section-pill:hover{
+  border-color:#999;
+}
+
+.post-tags{
+  margin-left:.5rem;
+}
+
+.tag-chip{
+  display:inline-block;
+  padding:.1rem .45rem;
+  border:1px solid #eee;
+  border-radius:999px;
+  font-size:.8rem;
+  margin-left:.25rem;
+}
