@@ -24,6 +24,9 @@ main:
   - title: "Tutorials"
     url: /teaching/
 
+  - title: "Tags"
+    url: /tags/
+
 #  - title: "Portfolio"
 #    url: /portfolio/
 
