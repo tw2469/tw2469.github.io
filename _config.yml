@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Tian WANG"
+title                    : "Tian WANG (王添)"
 title_separator          : "-"
 name                     : &name "Tian WANG (王添)"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tian WANG"
   pronouns         : # example: "she/her"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Postdoctoral researcher @ University of Washington"
+  location         : "Seattle, WA"
+  employer         : "University of Washington"
   uri              : # URL
-  email            : "none@example.org"
+  email            : "twang91@uw.edu"
 
   # Academic websites
   academia         : # URL
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0000-0003-3296-0930"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
