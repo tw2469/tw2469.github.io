@@ -1,11 +1,13 @@
 ---
 title: "Test1"
 collection: teaching
+type: "Tutorial"
+venue: "Online"
+date: 2026-02-16
+location: "—"
 permalink: /teaching/test1
 section: "VASP"
 tags: [vasp, dft, beginner]
-layout: single
-excerpt: ""
 ---
 
 # Test section.
