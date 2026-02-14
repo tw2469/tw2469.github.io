@@ -1,4 +1,5 @@
 ---
+category: 'manuscripts'
 title: "Magnetocaloric Effect in a Microporous Material Using a Rare-Earth-Free, Hybrid Perovskite"
 collection: publications
 permalink: /publication/2025-01-01-Magnetocaloric-Effect-in-a-Microporous-Material-Using-a-Rare-Earth-Free-Hybrid-Perovskite
