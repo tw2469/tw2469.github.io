@@ -24,6 +24,7 @@ import html
 import os
 import re
 import sys
+import hashlib
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
@@ -100,6 +101,13 @@ for pubsource in publist:
 
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
+            # Avoid Windows "filename too long": truncate slug and append a stable hash for uniqueness
+            full_slug = url_slug.strip("-") or bib_id
+            h = hashlib.md5(full_slug.encode("utf-8")).hexdigest()[:8]
+            MAX_SLUG = 80  # 60-100 usually safe on Windows
+            short_slug = full_slug[:MAX_SLUG].rstrip("-")
+            url_slug = short_slug + "-" + h
+            url_slug = url_slug.replace("--", "-")
 
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
