@@ -1,5 +1,5 @@
 ---
-category: 'manuscripts'
+category: manuscripts
 title: "Ferrous nutritional metal-organic framework as food fortificant"
 collection: publications
 permalink: /publication/2025-10-01-Ferrous-nutritional-metal-organic-framework-as-food-fortificant
