@@ -144,7 +144,7 @@ Just run SpecDis and open the tda.dat file. You will see the absorption and ECD 
 ### 3.2 Python Script
 This method is bit complicated. It worth the time if you have large number of output files. The script rely on a python module `lrspectrum`: https://github.com/awild82/lrspectrum/. It only reads the Gaussian output format. So we need to convert `tda.dat` to Gaussian log file using the script `stda2gaulog.sh` as below:
 
-```shell
+``` shell
 #!/usr/bin/env bash
 # Usage:
 #   ./dat2gaulog.sh 08L.dat > formatted.txt
@@ -189,7 +189,7 @@ Excited State   7:      Singlet-A        7.9653 eV   155.66 nm  f=0.01106    <S*
 
 Then, use the following python script `plot_lr.py`:
 
-```Python
+``` Python
 import os
 import sys
 import numpy as np
@@ -293,6 +293,3 @@ plt.show()
 
 Change `wlim`, `broad`, `xshift`, and `xunit` accordingly. Then run: `python plot_lr.py tda.log`. You will see the spectrum like this:
 ![](/images/teaching/xtb_Ch01/xTB_Ch01_002.png)
-
-
-1
