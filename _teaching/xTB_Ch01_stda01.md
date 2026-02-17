@@ -20,6 +20,7 @@ The `stda` program is designed to calculate the excited states for large systems
 The improved program is called `std2`, we will cover `std2` in later chapters.
 >The std2 program is the rebranded and updated version of the stda program. Originally, stda was implemented only for the simplified time-dependent density functional theory using the Tamm-Dancoff approximation (sTDA) method. With the implementation of more simplified quantum chemistry (sQC) methods in stda, the name was not fitting the application of the program anymore.
 
+`stda` can be seen as a semi-empirical, coarse version of TDDFT. Physically, it's still a TDDFT approximation, but it uses a simplified Coulomb potential for electron-hole coupling, making the electron-hole interaction relatively more localized. `std2` directly treats the electron-hole coupling as a reparameterized distance-dependent potential, and the Ex term has also undergone empirical correction, making the electron-hole interaction relatively more delocalized. Empirically, both should perform very similarly for small organic molecule systems and organic π-conjugated systems. `std2` improves charge transfer (CT) and solid-state material systems, where it may provide better results.
 
 ## 2. Run a calculations
 * Generally, the calculation need two steps. Step 1 is run another binary called `xtb4stda` to generate the `wfn.xtb` files for the calculations. Steps 2 is run `stda` (reading the generated `wfn.xtb`).
