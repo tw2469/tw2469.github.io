@@ -57,7 +57,7 @@ wget https://github.com/grimme-lab/xtb4stda/releases/download/v1.0/xtb4stda
 chmod +x xtb4stda
 cd ..
 ```
-In your current directory, you should see: two directories of `tutorialBin` and `xtb4stda`, one structure file `butadiene.xyz`. Then set up environment variables for `xtb4stda`. You can add them to your `.bashrc` file or to your SLURM/PBS script.
+In your current directory, you should see: two directories of `tutorialBin` and `xtb4stda`, one structure file `butadiene.xyz`. Then set up environment variables for `xtb4stda`. You can add them to your `.bashrc` file or to your SLURM/PBS script. If you are editing `.bashrc`, do not forget `source ~/.bashrc` after edition.
 ```
 # Change the path to the path of your cloned xtb4stda repository.
 export XTB4STDAHOME=$HOME/website/xtb_ex01/xtb4stda
