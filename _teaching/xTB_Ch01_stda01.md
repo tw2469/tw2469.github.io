@@ -10,7 +10,7 @@ section: "xtb"
 ---
 
 
-First upload: 2026-02-16. Last update: 2026-02-16. Email twang91@uw.edu or e0046935@hotmail.com for any questions.
+First upload: 2026-02-16. Last update: 2026-02-17. Email twang91@uw.edu or e0046935@hotmail.com for any questions.
 
 This tutorial is introducing the usage of `stda` for the excited state calculations (using xTB references as wfn.xtb).
 
@@ -89,6 +89,7 @@ Then run the calculation. Please read the manual for details of the options.
 ```
 stda_v1.6.3 -xtb -e 8.0
 ```
+Here I only use the two most essential options. For more information, please read the official manual book (https://github.com/grimme-lab/std2/releases/download/v1.6.3/stda_manual.pdf).
 * `-xtb`. Invoke sTDA-xTB calculation scheme. In this case, the `xtb4stda` binary
 wavefunction file (`wfn.xtb`) is read.
 * `-e`. This specifies the energy threshold (**in eV**) for configurations to be considered in the sTDA calculation. States with energies less than this threshold will be included.The default value is 7 eV.
