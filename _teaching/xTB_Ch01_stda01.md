@@ -293,5 +293,5 @@ plt.legend()
 plt.show()
 ```
 
-Change `wlim`, `broad`, `xshift`, and `xunit` accordingly. Then run: `python plot_lr.py tda.log`. You will see the spectrum like this:
+Change `wlim`, `broad`, `xshift`, and `xunit` accordingly. Then run: `python plot_lr.py tda.log`. You will see the spectrum like below. The raw data is saved as: `tdaX_eV.dat` and `tdaY.dat`.
 ![](/images/teaching/xtb_Ch01/xTB_Ch01_002.png)
