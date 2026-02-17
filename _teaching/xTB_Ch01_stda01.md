@@ -186,7 +186,7 @@ Excited State   3:      Singlet-A        6.4519 eV   192.17 nm  f=0          <S*
 Excited State   4:      Singlet-A        7.0737 eV   175.27 nm  f=1e-06      <S**2>=0.000
 Excited State   5:      Singlet-A        7.2073 eV   172.03 nm  f=5.1e-05    <S**2>=0.000
 Excited State   6:      Singlet-A        7.4316 eV   166.83 nm  f=1.6e-05    <S**2>=0.000
-Excited State   7:      Singlet-A        7.9653 eV   155.66 nm  f=0.01106    <S**2>=0.
+Excited State   7:      Singlet-A        7.9653 eV   155.66 nm  f=0.01106    <S**2>=0.000
 ```
 
 Then, use the following python script `plot_lr.py`:
