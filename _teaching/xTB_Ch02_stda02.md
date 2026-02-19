@@ -17,8 +17,10 @@ tar -xzf std2-v1.6.3.3.tar.gz
 cd std2-1.6.3.3
 ```
 ### 1.2 Edit `Makefile`
-
+Revise **Line 15 and 16** as:
 ```diff
-- old line: alpha = 0.1
-+ new line: alpha = 0.2
+-     LINKER = ifort -static -qopenmp  -I$(MKLROOT)/include/intel64/lp64 -I$(MKLROOT)/include
+-     LIBS   = $(MKLROOT)/lib/intel64/libmkl_blas95_lp64.a $(MKLROOT)/lib/intel64/libmkl_lapack95_lp64.a -Wl,--start-group $(MKLROOT)/lib/intel64/libmkl_intel_lp64.a $(MKLROOT)/lib/intel64/libmkl_core.a $(MKLROOT)/lib/intel64/libmkl_intel_thread.a -Wl,--end-group -lpthread -lm
++    LINKER = ifort  -qopenmp  -mkl
++    LIBS   = -lpthread -lm -ldl
 ```
