@@ -9,6 +9,8 @@ permalink: /teaching/xTB_Ch03
 section: "xtb"
 ---
 
+First upload: 2026-05-22. Last update: 2026-05-22. Email twang91@uw.edu or e0046935@hotmail.com for any questions.
+
 ## 1. Compile `stda-1.6.3.3` Again
 ### 1.1 One Issue in `tda.dat` Format
 You may notice that the width of `tda.dat` is not wide enough. The rotatory strength (the 5th column in `tda.dat`) in some large systems could exceed the maximum width and you will see `*************` strings as the output.
