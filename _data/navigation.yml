@@ -24,6 +24,9 @@ main:
   - title: "Tutorials"
     url: /teaching/
 
+  - title: "Helix Explorer"
+    url: "https://tw2469.github.io/bbl-helix-explorer/"
+
 #  - title: "Portfolio"
 #    url: /portfolio/
 
